@@ -1,0 +1,16 @@
+name: BlogTimes
+id: BlogTimes
+author_name: naoaki.onozaki
+author_link: http://www.zelazny.mydns.jp/
+version: 1.1
+l10n_class: BlogTimes::L10N
+
+tags:
+    block:
+        BlogTimes: $BlogTimes::BlogTimes::Tags::BlogTimes
+    function:
+        BlogTimesWidth: $BlogTimes::BlogTimes::Tags::BlogTimesWidth
+        BlogTimesHeight: $BlogTimes::BlogTimes::Tags::BlogTimesHeight
+        BlogTimesFilename: $BlogTimes::BlogTimes::Tags::BlogTimesFilename
+        BlogTimesFullFilename: $BlogTimes::BlogTimes::Tags::BlogTimesFullFilename
+        BlogTimesFileURL: $BlogTimes::BlogTimes::Tags::BlogTimesFileURL
