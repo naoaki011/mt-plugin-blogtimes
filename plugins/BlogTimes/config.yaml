@@ -1,14 +1,18 @@
-name: BlogTimes
+name: Blog Times
 id: BlogTimes
-author_name: naoaki.onozaki
-author_link: http://www.zelazny.mydns.jp/
-version: 1.1
+author_name: Nilesh Chaudhari
+author_link: http://nilesh.org/
+doc_link: http://nilesh.org/archives/2002/11/mtblogtimes
+plugin_link: http://www.zelazny.mydns.jp/
+description: Creates a chart which plots the time of your posts on a bar of the 24 hours of the day.
+version: 1.01
 l10n_class: BlogTimes::L10N
 
 tags:
     block:
         BlogTimes: $BlogTimes::BlogTimes::Tags::BlogTimes
     function:
+        BlogTimesImage: $BlogTimes::BlogTimes::Tags::BlogTimesImage
         BlogTimesWidth: $BlogTimes::BlogTimes::Tags::BlogTimesWidth
         BlogTimesHeight: $BlogTimes::BlogTimes::Tags::BlogTimesHeight
         BlogTimesFilename: $BlogTimes::BlogTimes::Tags::BlogTimesFilename

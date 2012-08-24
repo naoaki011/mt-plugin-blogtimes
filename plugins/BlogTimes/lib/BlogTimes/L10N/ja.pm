@@ -9,7 +9,8 @@ use vars qw( %Lexicon );
 ## The following is the translation table.
 
 %Lexicon = (
-    'description of BlogTimes' => 'BlogTimesの説明',
+    'Creates a chart which plots the time of your posts on a bar of the 24 hours of the day.'
+      => 'Creates a chart which plots the time of your posts on a bar of the 24 hours of the day.',
 );
 
 1;
